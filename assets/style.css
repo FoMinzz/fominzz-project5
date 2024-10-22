@@ -1,0 +1,389 @@
+*,
+::before ::after {
+    box-sizing: border-box;
+}
+body {
+    font-family: "Open Sans", sans-serif;
+}
+
+/*==================== Common ========================= */
+a {
+    text-decoration: none;
+}
+
+/*==================== End Common ========================= */
+
+/*==================== Nav ========================= */
+
+.nav {
+    position: relative;
+    display: flex;
+    align-items: center;
+    margin-top: 56px;
+}
+
+.nav__logo {
+    display: flex;
+    align-items: center;
+}
+
+.nav__logo img {
+    width: 24px;
+    height: 24px;
+}
+
+.nav__logo-name {
+    margin-left: 7px;
+}
+
+.nav__logo a {
+    color: #000;
+}
+
+.nav__menu-list ul {
+    display: flex;
+}
+
+.nav__menu-list ul a {
+    color: #696d76;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem;
+    margin-left: 47px;
+}
+
+.nav__menu-list ul a:hover {
+    color: #212832;
+    font-size: 1rem;
+    font-weight: 600;
+    border-bottom: 2px solid #7264d6;
+    transition: ease-in-out 0.1s;
+}
+
+.nav__menu-sign {
+    position: absolute;
+    right: 0;
+}
+
+.signin {
+    color: #212832;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.75rem;
+}
+
+.signup {
+    color: #fff;
+    font-size: 1rem;
+    line-height: 1.75rem;
+    font-weight: 600;
+    padding: 12px 28px;
+    background-color: #212832;
+    border-radius: 6px;
+    margin-left: 28px;
+}
+
+/*==================== EnD Nav ========================= */
+
+/*==================== Hero ========================= */
+.hero__content-left {
+    margin-top: 9.19rem;
+}
+
+.hero__content-wallet {
+    color: #696d77;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem; /* 175% */
+}
+
+.hero__content-payment {
+    color: #212832;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 4.375rem;
+    margin-top: 0.75rem;
+}
+
+.hero__content-only-text-payment {
+    color: #7264d6;
+    font-size: 3.75rem;
+    font-weight: 700;
+    line-height: 4.375rem; /* 116.667% */
+}
+
+.hero__content-sub {
+    margin-top: 1.25rem;
+    color: #696d76;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem;
+}
+
+.hero__content-contact {
+    position: relative;
+    margin-top: 3.94rem;
+    border-radius: 0.5rem;
+    background-color: #fff;
+    box-shadow: 0px 16px 42px 0px rgba(0, 0, 0, 0.09);
+    display: flex;
+    justify-content: space-between;
+}
+
+.hero__content-contact input {
+    border: none;
+    width: 41rem;
+    padding: 1.44rem;
+}
+
+.hero__contact-getstarted {
+    position: absolute;
+    top: 0.5rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.94rem 1.88rem;
+    border-radius: 0.5rem;
+    background: #7264d6;
+}
+
+.hero__note-small {
+    margin-top: 1.25rem;
+    color: #696d76;
+    font-size: 0.875rem;
+    font-weight: 600;
+    line-height: 1.5rem; /* 171.429% */
+}
+
+.hero__content-right {
+    margin-top: 4.75rem;
+    position: relative;
+}
+
+.depositet {
+    position: absolute;
+    top: 4.81rem;
+    left: -7.4rem;
+}
+
+.interest {
+    position: absolute;
+    top: 7.95rem;
+    right: -2.75rem;
+}
+
+.funds {
+    position: absolute;
+    bottom: 3.81rem;
+    right: 8rem;
+}
+
+/*=================== End Hero ========================= */
+
+/*=================== How It Work ========================= */
+.work__left {
+    margin-top: 10rem;
+}
+
+.work__right {
+    margin-top: 11.8rem;
+}
+.work__right-sm-wallet {
+    color: #696d77;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem; /* 175% */
+}
+
+.work__right-howitwork {
+    color: #212832;
+    font-size: 2.5rem;
+    font-weight: 700;
+    margin-top: 0.75rem;
+    line-height: 3.125rem; /* 125% */
+}
+
+.work__right-titlefirst {
+    color: #212832;
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 2rem; /* 145.455% */
+    margin-top: 4.38rem;
+}
+
+.work__right-note {
+    color: #696d76;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem; /* 175% */
+}
+
+.work__right-title {
+    color: #212832;
+    font-size: 1.375rem;
+    font-weight: 600;
+    line-height: 2rem; /* 145.455% */
+    margin-top: 1.87rem;
+}
+
+/*=================== End How It Work ========================= */
+
+/*=================== Onecard ========================= */
+
+.onecard__left {
+    margin-top: 10rem;
+}
+
+.onecard__left-smwallet {
+    color: #696d77;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem; /* 175% */
+    margin-top: 0.75rem;
+}
+
+.onecard__left-title {
+    color: #212832;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.125rem; /* 125% */
+}
+
+.onecard__left-note {
+    color: #696d76;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem; /* 166.667% */
+    margin-top: 1.25rem;
+}
+
+.onecard__left-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.74rem;
+    margin-bottom: 2.37rem;
+}
+
+.onecard__left-listcontent-first {
+    color: #212832;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.875rem; /* 166.667% */
+}
+
+.onecard__left-listcontent {
+    color: #212832;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.875rem; /* 166.667% */
+    margin-top: 1.13rem;
+}
+
+.onecard__left-getstarted {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    padding: 0.94rem 1.88rem;
+    background: #212832;
+    border-radius: 0.5rem;
+}
+
+.mainbalance {
+    margin-top: 12.37rem;
+}
+/*=================== End Onecard ========================= */
+
+/*=================== Transfer and Deposite Your Money Anytime ========================= */
+.transfer__left {
+    margin-top: 10rem;
+}
+
+.transfer__right {
+    margin-top: 14.6rem;
+}
+.transfer__right-smwallet {
+    color: #696d77;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem; /* 175% */
+}
+
+.transfer__right-title {
+    color: #212832;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.125rem; /* 125% */
+    margin-top: 0.75rem;
+}
+
+.transfer__right-desc {
+    color: #696d76;
+    font-size: 1.125rem;
+    font-weight: 400;
+    line-height: 1.875rem; /* 166.667% */
+    margin-top: 1.25rem;
+}
+
+.transfer__right-list {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.75rem;
+    margin-bottom: 2.37rem;
+}
+
+.transfer__right-list a {
+    color: #212832;
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.875rem; /* 166.667% */
+}
+
+.transfer__right-menu {
+    margin-top: 1.12rem;
+}
+
+.transfer__right-getstarted {
+    color: #fff;
+    font-size: 1rem;
+    font-weight: 600;
+    line-height: 1.75rem; /* 175% */
+    padding: 0.94rem 1.87rem;
+    border-radius: 0.5rem;
+    background: #212832;
+}
+/*=================== End Transfer and Deposite Your Money Anytime ========================= */
+
+/*=================== What Clients Says ========================= */
+.our-testimonial-tittle {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 10rem;
+    text-align: center;
+}
+
+.our-testimonial-tittle-sm {
+    color: #696d77;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem; /* 175% */
+}
+
+.our-testimonial-tittle-lg {
+    color: #212832;
+    font-size: 2.5rem;
+    font-weight: 700;
+    line-height: 3.125rem; /* 125% */
+}
+
+.our-testimonial-tittle_desc {
+    margin-top: 1.12rem;
+    color: #696d76;
+    font-size: 1rem;
+    font-weight: 400;
+    line-height: 1.75rem; /* 175% */
+    max-width: 27.1875rem;
+}
+/*=================== End What Clients Says ========================= */
